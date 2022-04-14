@@ -1,2 +1,6 @@
-Info: Nothing to build for ejercicio3
-Info: Nothing to build for ejercicio3
+16:48:31 **** Incremental Build of configuration Debug for project funciones1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioCuatro.o" "..\\src\\ejercicioCuatro.c" 
+gcc -o funciones1.exe "src\\ejercicioCuatro.o" "src\\utn.o" 
+Info: Nothing to build for funciones1
