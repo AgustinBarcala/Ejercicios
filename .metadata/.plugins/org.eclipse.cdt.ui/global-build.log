@@ -1,6 +1,8 @@
-16:48:31 **** Incremental Build of configuration Debug for project funciones1 ****
+22:03:32 **** Rebuild of configuration Debug for project validar_letras ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\utn.o" "..\\src\\utn.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicioCuatro.o" "..\\src\\ejercicioCuatro.c" 
-gcc -o funciones1.exe "src\\ejercicioCuatro.o" "src\\utn.o" 
-Info: Nothing to build for funciones1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validar_letras.o" "..\\src\\validar_letras.c" 
+..\src\validar_letras.c: In function 'validarLetrasFinal':
+..\src\validar_letras.c:47:47: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   47 |             if(cadena[i]<'A' || cadena[i]>'Z' && cadena[i]<'a' || cadena[i]>'z')
+      |                                 ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+gcc -o validar_letras.exe "src\\validar_letras.o" 
