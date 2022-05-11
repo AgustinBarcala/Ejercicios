@@ -1,15 +1,15 @@
-02:36:23 **** Incremental Build of configuration Debug for project machete_bibliotecas ****
+03:59:33 **** Incremental Build of configuration Debug for project baseArrays ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\machete_bibliotecas.o" "..\\src\\machete_bibliotecas.c" 
-gcc -o machete_bibliotecas.exe "src\\machete_bibliotecas.o" 
-Info: Nothing to build for machete_bibliotecas
-Info: Nothing to build for machete_bibliotecas
-Info: Nothing to build for machete_bibliotecas
-Info: Nothing to build for machete_bibliotecas
-Info: Nothing to build for machete_bibliotecas
-02:41:51 **** Incremental Build of configuration Debug for project machete_bibliotecas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\baseArrays.o" "..\\src\\baseArrays.c" 
+gcc -o baseArrays.exe "src\\baseArrays.o" "src\\inputs.o" 
+Info: Nothing to build for baseArrays
+04:06:24 **** Incremental Build of configuration Debug for project baseArrays ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\machete_bibliotecas.o" "..\\src\\machete_bibliotecas.c" 
-gcc -o machete_bibliotecas.exe "src\\machete_bibliotecas.o" 
-Info: Nothing to build for machete_bibliotecas
-Info: Nothing to build for machete_bibliotecas
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\baseArrays.o" "..\\src\\baseArrays.c" 
+gcc -o baseArrays.exe "src\\baseArrays.o" "src\\inputs.o" 
+Info: Nothing to build for baseArrays
+04:07:27 **** Incremental Build of configuration Debug for project baseArrays ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\baseArrays.o" "..\\src\\baseArrays.c" 
+gcc -o baseArrays.exe "src\\baseArrays.o" "src\\inputs.o" 
+Info: Nothing to build for baseArrays
