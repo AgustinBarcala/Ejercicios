@@ -1,8 +1,15 @@
-22:03:32 **** Rebuild of configuration Debug for project validar_letras ****
+02:36:23 **** Incremental Build of configuration Debug for project machete_bibliotecas ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validar_letras.o" "..\\src\\validar_letras.c" 
-..\src\validar_letras.c: In function 'validarLetrasFinal':
-..\src\validar_letras.c:47:47: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
-   47 |             if(cadena[i]<'A' || cadena[i]>'Z' && cadena[i]<'a' || cadena[i]>'z')
-      |                                 ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
-gcc -o validar_letras.exe "src\\validar_letras.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\machete_bibliotecas.o" "..\\src\\machete_bibliotecas.c" 
+gcc -o machete_bibliotecas.exe "src\\machete_bibliotecas.o" 
+Info: Nothing to build for machete_bibliotecas
+Info: Nothing to build for machete_bibliotecas
+Info: Nothing to build for machete_bibliotecas
+Info: Nothing to build for machete_bibliotecas
+Info: Nothing to build for machete_bibliotecas
+02:41:51 **** Incremental Build of configuration Debug for project machete_bibliotecas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\machete_bibliotecas.o" "..\\src\\machete_bibliotecas.c" 
+gcc -o machete_bibliotecas.exe "src\\machete_bibliotecas.o" 
+Info: Nothing to build for machete_bibliotecas
+Info: Nothing to build for machete_bibliotecas
